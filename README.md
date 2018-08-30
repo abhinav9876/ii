@@ -33,13 +33,11 @@ Source code and issue tracker: https://github.com/esnet/iqperf
 Obtaining iqperf3
 ----------------
 
-Downloads of iqperf3 are available at:
-
-    https://downloads.es.net/pub/iqperf/
 
 To check out the most recent code, clone the git repository at:
 
-    https://github.com/esnet/iqperf.git
+    https://github.com/abhinav9876/iqperf.git
+
 
 Building iqperf3
 ---------------
@@ -60,9 +58,6 @@ Invoking iqperf3
 iqperf3 includes a manual page listing all of the command-line options.
 The manual page is the most up-to-date reference to the various flags and parameters.
 
-For sample command line usage, see:
-
-https://fasterdata.es.net/performance-testing/network-troubleshooting-tools/iqperf/
 
 Using the default options, iqperf is meant to show typical well
 designed application performance.  "Typical well designed application"
@@ -76,36 +71,9 @@ These flags include:
     -Z, --zerocopy            use a 'zero copy' sendfile() method of sending data
     -A, --affinity n/n,m      set CPU affinity
 
-Bug Reports
------------
 
-Before submitting a bug report, please make sure you're running the
-latest version of the code, and confirm that your issue has not
-already been fixed.  Then submit to the iqperf3 issue tracker on
-GitHub:
 
-https://github.com/esnet/iqperf/issues
 
-In your issue submission, please indicate the version of iqperf3 and
-what platform you're trying to run on (provide the platform
-information even if you're not using a supported platform, we
-*might* be able to help anyway).  Exact command-line arguments will
-help us recreate your problem.  If you're getting error messages,
-please include them verbatim if possible, but remember to sanitize any
-sensitive information.
-
-If you have a question about usage or about the code, please do *not*
-submit an issue.  Please use one of the mailing lists for that.
-
-Changes from iqperf 2.x
-----------------------
-
-(Note that iqperf2 is no longer being developed by its original
-maintainers.  However, beginning in 2014, another developer began
-fixing bugs and enhancing functionality, and generating releases of
-iqperf2.  Both projects (as of late 2017) are currently being developed
-actively, but independently.  The continuing iqperf2 development
-project can be found at https://sourceforge.net/projects/iqperf2/.)
 
 New options:
 
